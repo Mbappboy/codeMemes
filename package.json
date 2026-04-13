@@ -1,0 +1,13 @@
+{
+  "name": "programming-meme-sharing",
+  "version": "1.0.0",
+  "description": "A real-time meme sharing site using long polling.",
+  "main": "server.mjs",
+  "type": "module",
+  "dependencies": {
+    "serve-static": "^1.15.0"
+  },
+  "scripts": {
+    "start": "node server.mjs"
+  }
+}
