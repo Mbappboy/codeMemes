@@ -1,0 +1,37 @@
+body {
+  background: #050a0f;
+  color: #a0dce0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+}
+
+.meme {
+  background: rgba(0, 242, 255, 0.05);
+  border: 1px solid #00f2ff;
+  border-radius: 10px;
+  padding: 1em;
+  margin-bottom: 2em;
+  box-shadow: 0 0 10px rgba(0, 242, 255, 0.2);
+}
+
+h1, h2 {
+  color: #00f2ff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+input, button {
+  background: #10202b;
+  border: 1px solid #00f2ff;
+  color: white;
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+button:hover {
+  background: #00f2ff;
+  color: #050a0f;
+  cursor: pointer;
+}
